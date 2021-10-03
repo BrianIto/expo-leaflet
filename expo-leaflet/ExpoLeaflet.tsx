@@ -109,6 +109,7 @@ export const ExpoLeaflet = ({
     >
       {webViewContent != null && (
         <WebView
+          key={rest.key ? rest.key : ""}
           allowFileAccess={true}
           allowUniversalAccessFromFileURLs={true}
           allowFileAccessFromFileURLs={true}
