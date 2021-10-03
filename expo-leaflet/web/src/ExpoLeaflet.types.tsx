@@ -13,6 +13,7 @@ export type LeafletMapProps = {
 }
 
 export type ExpoLeafletProps = LeafletMapProps & {
+  key?: string
   backgroundColor?: string
   loadingIndicator?: () => ReactElement
   onMapLoad?: () => void
